@@ -4,11 +4,11 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "Personal Blog"
 description: > # this means to ignore newlines until "email:"
    A Jekyll theme - Medium inspired
 
-email: a-mail@mail.mail
+email: hancyran@qq.com
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 float_logo: true # true, false (default)
@@ -16,14 +16,14 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Haoxi Ran (Hancy)'
+author: 'Haoxi Ran'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
-baseurl: ""
+url: "http://hancyran.github.io" # the base hostname & protocol for your site
+baseurl: "http://hancyran.github.io"
 #used to display twitter cards
 twitter_handle: '@dirkfabisch'
 
@@ -49,7 +49,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
+    url:	https://github.com/hancyran
     desc:	Fork me on github
     share_url:
     share_title:
