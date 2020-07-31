@@ -20,7 +20,7 @@ name: 'Haoxi Ran (Hancy)'
 author: 'Haoxi Ran'
 author_image: "/assets/images/author.jpg"
 
-paginate:	5
+paginate:	10
 
 url: "" # the base hostname & protocol for your site
 baseurl: ""
