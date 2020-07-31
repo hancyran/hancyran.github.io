@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Research Projects"
+title:  "RAN: Textured Human Model Recovery and Animation with a Single Image"
 date:   2020-04-01
 categories: jekyll update
 tags: project
