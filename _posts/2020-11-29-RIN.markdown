@@ -7,6 +7,6 @@ tags: research
 image: /assets/posts/rin.jpg
 arxiv:  "https://arxiv.org/abs/0000.00000"
 code:  "https://github.com/hancyran/RIN"
-author:  **Haoxi Ran**, Guangfu Wang, Li Lu
+author:  Haoxi Ran, Guangfu Wang, Li Lu
 abstract:  "Human imitation has become topical recently, driven by GAN's ability to disentangle human pose and body content. However, the latest methods hardly focus on 3D information, and to avoid self-occlusion, a massive amount of input images are needed. In this paper, we propose RIN, a novel volume-based framework for reconstructing a textured 3D model from a single picture and imitating a subject with the generated model. Specifically, to estimate most of the human texture, we propose a U-Net-like front-to-back translation network. With both front and back images input, the textured volume recovery module allows us to color a volumetric human. A sequence of 3D poses then guides the colored volume via Flowable Disentangle Networks as a volume-to-volume translation task. To project volumes to a 2D plane during training, we design a differentiable depth-aware renderer. Our experiments demonstrate that our volume-based model is adequate for human imitation, and the back view can be estimated reliably using our network. While prior works based on either 2D pose or semantic map often fail for the unstable appearance of a human, our framework can still produce concrete results, which are competitive to those imagined from multi-view input."
 ---
