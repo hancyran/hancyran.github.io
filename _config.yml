@@ -4,7 +4,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Haoxi(Hancy) Ran"
+title: "Haoxi(Hancy)&nbsp;&nbsp;Ran"
 description: > # this means to ignore newlines until "email:"
     Currently Intern at Tencent Youtu Lab <br> Undergraduate from Sichuan University
 
