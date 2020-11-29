@@ -4,26 +4,26 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Haoxi Ran's Blog"
+title: "Haoxi(Hancy) Ran"
 description: > # this means to ignore newlines until "email:"
-   Undergraduate from Sichuan University. Currently Employed as a Research Assistant in Sichuan University.
+   Undergraduate from Sichuan University. Currently Intern at Tencent Youtu Lab.
 
-email: hancyran@qq.com
+email: ranhaoxi@gmail.com
 #blog logo
-logo: "/assets/images/mylogo.png"
-float_logo: true # true, false (default)
+logo: "/assets/images/portrait.jpg"
+float_logo: false # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/portrait.jpg"
 
-name: 'Haoxi Ran (Hancy)'
+name: 'Haoxi(Hancy) Ran'
 author: 'Haoxi Ran'
-author_image: "/assets/images/author.jpg"
+author_image: "/assets/images/portrait.jpg"
 
 paginate:	10
 
-url: "" # the base hostname & protocol for your site
-baseurl: ""
+url: "https://hancyran.github.io/" # the base hostname & protocol for your site
+baseurl: "https://hancyran.github.io/"
 #used to display twitter cards
 #twitter_handle: '@dirkfabisch'
 
@@ -50,7 +50,7 @@ social:
 
   - icon:	github
     url:	https://github.com/hancyran
-    desc:	Fork me on github
+    desc:	Follow me on github
     share_url:
     share_title:
     share_link:
