@@ -61,7 +61,7 @@ layout: default
               <h3 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h3>
             </header>
             <section class="post-excerpt" itemprop="description">
-              <p style="font-size:15px">{{ post.abstract | strip_html }}</p>
+              <p style="font-size:18px; font-weight:normal">{{ post.abstract | strip_html }}</p>
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
