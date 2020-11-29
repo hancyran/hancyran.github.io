@@ -29,7 +29,7 @@ layout: default
 <main class="content" role="main">
 
     {% if site.tags.featured %}
-    <h5 class="index-headline featured"><span>Research</span></h5>
+    <h2 class="index-headline featured"><span>Research</span></h2>
 
     <div class="container featured">
       {% for post in site.tags.featured %}
@@ -58,7 +58,7 @@ layout: default
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
+              <h3 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h3>
             </header>
             <section class="post-excerpt" itemprop="description">
               <p style="font-size:15px">{{ post.abstract | strip_html }}</p>
