@@ -6,7 +6,9 @@ gems:
 # Site settings
 title: "Haoxi(Hancy) Ran"
 description: > # this means to ignore newlines until "email:"
-   Undergraduate from Sichuan University. Currently Intern at Tencent Youtu Lab.
+Currently Intern at Tencent Youtu Lab.
+Undergraduate from Sichuan University. 
+
 
 email: ranhaoxi@gmail.com
 #blog logo
@@ -14,7 +16,7 @@ logo: "/assets/images/portrait.jpg"
 float_logo: false # true, false (default)
 
 # blog cover
-cover: "/assets/images/portrait.jpg"
+cover: "/assets/images/cover.jpg"
 
 name: 'Haoxi(Hancy) Ran'
 author: 'Haoxi Ran'
