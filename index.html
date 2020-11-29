@@ -16,6 +16,7 @@ layout: default
     <h2 class="blog-description">{{ site.description }}</h2>
     <div class="custom-links">
       <b>ranhaoxi AT gmail DOT com</b>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
       {% for social in site.social %}
         {% if social.url %}
             <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
@@ -24,7 +25,9 @@ layout: default
             &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
+
       <a href="https://scholar.google.com/citations?user=FxBvRNUAAAAJ&hl=en">Google Scholar</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
       <a href="https://www.linkedin.com/in/haoxi-ran/">LinkedIn</a>
     </div>
 </header>
