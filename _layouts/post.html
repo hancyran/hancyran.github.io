@@ -42,7 +42,9 @@
           <h2>Abstract</h2>
           <p style="font-size:25px">{{page.abstract}}</p>
           <h2>Result</h2>
-          {{ page.result}}
+          <div class="post-image-image" style="background-image: url({% if page.result %}{{ page.result | prepend: site.baseurl }}{% endif %})">
+            Article Image
+          </div>
         </section>
         <footer class="post-footer">
           <section class="share">
