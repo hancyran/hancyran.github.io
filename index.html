@@ -56,14 +56,14 @@ layout: default
     {% endif %}
 
     {% if site.tags.experience %}
-    <h5 class="index-headline featured"><span>Experiences</span></h5>
+    <h2 class="index-headline featured"><span style="font-size:20px">Experiences</span></h2>
 
     <div class="container featured">
       {% for post in site.tags.experience %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <section class="post-excerpt" itemprop="description">
-              <p style="font-size:16px; font-weight:normal">{{ post.content | markdownify }}</p>
+              <p style="font-size:16px; font-weight:normal; text-decoration: none">{{ post.content }}</p>
             </section>
           </div>
         </article>
