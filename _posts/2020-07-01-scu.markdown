@@ -1,0 +1,10 @@
+---
+layout: post
+categories: jekyll update
+tags: experience
+aff: CS Department at Sichuan University
+aff_url: https://cs.scu.edu.cn/
+position: Research Assistant
+time: July 2020 - June 2021
+topic: Point-based 3D Detection
+---

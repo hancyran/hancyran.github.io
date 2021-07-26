@@ -1,0 +1,12 @@
+---
+layout: post
+categories: jekyll update
+tags: experience
+aff: Megvii (Face++)
+aff_url: https://en.megvii.com/
+position: Research Intern
+time: July 2019 - Nov. 2019
+advisor: Shuaicheng Liu
+advisor_url: http://www.liushuaicheng.org/
+topic: 3D Human Reconstruction & Human Imitation
+---

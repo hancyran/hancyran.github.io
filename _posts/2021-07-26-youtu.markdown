@@ -3,27 +3,10 @@ layout: post
 categories: jekyll update
 tags: experience
 aff: Tencent Youtu Lab
-
+aff_url: https://open.youtu.qq.com/#/open/aboutus/publications
+position: Research Intern
+time: Nov. 2020 - Present
+advisor: Wei Zhuo
+advisor_url: https://scholar.google.com.au/citations?user=Q-UjnzEAAAAJ&hl=en
+topic: Point-based 3D Detection
 ---
-
-- [Tencent Youtu Lab](https://open.youtu.qq.com/#/open/aboutus/publications)
-
-    Research Intern | Nov. 2020 - Present
-
-    Advisor: [Wei Zhuo](https://scholar.google.com.au/citations?user=Q-UjnzEAAAAJ&hl=en) & Jun Liu
-    
-    Topic: Point-based 3D Detection
-
-- [CS Department at Sichuan University](https://cs.scu.edu.cn/)
-
-    Research Assistant | July 2020 - June 2021
-  
-    Topic: Point Cloud Analysis
-
--  [Megvii (Face++)](https://en.megvii.com/)
-
-    Research Intern | July 2019 - Nov. 2019
-   
-    Advisor: [Shuaicheng Liu](http://www.liushuaicheng.org/)
-    
-    Topic: 3D Human Reconstruction & Human Imitation
