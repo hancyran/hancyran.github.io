@@ -3,7 +3,7 @@ layout: post
 title:  "Learning Inner-Group Relations on Point Clouds"
 date:   2021-7-25
 categories: jekyll update
-tags: research
+tags: publication
 image: /assets/posts/rpnet.jpg
 publish:  "ICCV2021"
 arxiv:  "https://arxiv.org/abs/0000.00000"

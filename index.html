@@ -54,7 +54,7 @@ layout: default
 
     <h2 class="index-headline featured"><span style="font-size:20px">Publications</span></h2>
     <div class="cf frame">
-      {% for post in paginator.posts %}
+      {% for post in paginator.tags.publication %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <header class="post-header">
