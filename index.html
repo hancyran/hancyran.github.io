@@ -38,8 +38,8 @@ layout: default
               <h3 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h3>
                 <p style="text-decoration: none; font-size:20px; font-weight:bold; color:Tomato">
                     {{ post.publish }}
-                    <a href="{{ post.arxiv }}" itemprop="url" style="text-decoration: none; font-size:20px; font-weight:bold">[arXiv]</a>
-                    <a href="{{ post.code }}" itemprop="url" style="text-decoration: none; font-size:20px; font-weight:bold">[Code]</a>
+                    <a href="{{ post.arxiv }}" itemprop="url" style="text-decoration: none; font-size:20px; font-weight:bold; color:#0099cc">[arXiv]</a>
+                    <a href="{{ post.code }}" itemprop="url" style="text-decoration: none; font-size:20px; font-weight:bold; color:#0099cc">[Code]</a>
                 </p>
             </header>
             <section class="post-excerpt" itemprop="description">
@@ -71,7 +71,7 @@ layout: default
                 </p>
                 {% if post.advisor %}
                 <p style="font-size:16px; font-weight:normal; text-decoration: none">
-                    Advisor: <a href="{{ post.advisor_url }}" itemprop="url" style="text-decoration: none; font-size:16px; font-weight:bold">{{post.advisor}}</a>
+                    Advisor: <a href="{{ post.advisor_url }}" itemprop="url" style="text-decoration: none; font-size:16px; font-weight:bold; color:#0099cc">{{post.advisor}}</a>
                 </p>
                 {% endif %}
                 <p style="font-size:16px; font-weight:normal; text-decoration: none">
