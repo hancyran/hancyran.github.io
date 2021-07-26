@@ -85,6 +85,31 @@ layout: default
     </div>
     {% endif %}
 
+    {% if site.tags.education %}
+    <h2 class="index-headline featured"><span style="font-size:20px">Education</span></h2>
+
+    <div class="container featured">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <section class="post-excerpt" itemprop="description">
+              {% for post in site.tags.education %}
+                <p style="font-size:20px; font-weight:normal; text-decoration: none">
+                    <span style="font-size:20px">{{post.aff}}</span><span style="font-size:16px">{{post.location}}</span>
+                </p>
+                <p style="font-size:16px; font-weight:normal; text-decoration: none">
+                    <span style="font-size:16px">{{post.degree}} | {{post.time}}</span>
+                </p>
+                <p style="font-size:16px; font-weight:normal; text-decoration: none">
+                    Topic: <span style="font-size:16px">{{post.topic}}</span>
+                </p>
+              {% endfor %}
+            </section>
+          </div>
+        </article>
+
+    </div>
+    {% endif %}
+
     <nav class="pagination" role="navigation">
       {% if paginator.next_page %}
         <a class="newer-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.next_page }}>&larr; Older posts</a>

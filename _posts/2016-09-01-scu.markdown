@@ -1,0 +1,10 @@
+---
+layout: post
+categories: jekyll update
+tags: education
+aff: Sichuan University
+location: Chengdu, China
+degree: Bachelor of Engineering
+major: Computer Science
+time: Sep. 2016 - June 2020
+---
