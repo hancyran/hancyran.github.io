@@ -26,7 +26,7 @@ paginate:	10
 url: "https://hancyran.github.io/" # the base hostname & protocol for your site
 baseurl: "https://hancyran.github.io/"
 #used to display twitter cards
-#twitter_handle: '@dirkfabisch'
+twitter_handle: '@HancyRan'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
@@ -35,12 +35,12 @@ google_analytics: UA-120227799-1
 
 # social icons and sharing options
 social:
-#  - icon:	twitter
-#    url:	https://twitter.com/dirkfabisch
-#    desc: Follow me on twitter
-#    share_url: http://twitter.com/share
-#    share_title: ?text=
-#    share_link: "&amp;url="
+  - icon:	twitter
+    url:	https://twitter.com/HancyRan
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
