@@ -6,7 +6,8 @@ aff: Tencent Youtu Lab
 aff_url: https://open.youtu.qq.com/#/open/aboutus/publications
 position: Research Intern
 time: Nov. 2020 - Present
-advisor: Wei Zhuo & Jun Liu
+advisor: Wei Zhuo
+advisor2: Jun Liu
 advisor_url: https://scholar.google.com.au/citations?user=Q-UjnzEAAAAJ&hl=en
 topic: Point-based 3D Detection
 ---

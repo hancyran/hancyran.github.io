@@ -71,7 +71,7 @@ layout: default
                 </p>
                 {% if post.advisor %}
                 <p style="font-size:16px; font-weight:normal; text-decoration: none">
-                    Advisor: <a href="{{ post.advisor_url }}" itemprop="url" style="text-decoration: none; font-size:16px; color:#3366cc">{{post.advisor}}</a>
+                    Advisor: <a href="{{ post.advisor_url }}" itemprop="url" style="text-decoration: none; font-size:16px; color:#3366cc">{{post.advisor}}{% if post.advisor2 %} & {{post.advisor2}}{% endif %}</a>
                 </p>
                 {% endif %}
                 <p style="font-size:16px; font-weight:normal; text-decoration: none">
