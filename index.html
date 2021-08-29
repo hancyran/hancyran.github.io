@@ -85,6 +85,31 @@ layout: default
     </div>
     {% endif %}
 
+    {% if site.tags.awards %}
+    <h2 class="index-headline featured"><span style="font-size:20px">Education</span></h2>
+
+    <div class="container featured">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <section class="post-excerpt" itemprop="description">
+              {% for post in site.tags.education %}
+                <p style="font-size:20px; font-weight:normal; text-decoration: none">
+                    <span style="font-size:20px; font-weight:bold">{{post.name}}</span> &nbsp;&nbsp; <span style="font-size:14px">{{post.aff}}</span>
+                </p>
+                <p style="font-size:16px; font-weight:normal; text-decoration: none">
+                    <span style="font-size:16px; font-weight:bold">{{post.pool}}</span> <span style="font-size:16px">| {{post.time}}</span>
+                </p>
+                <p style="font-size:16px; font-weight:normal; text-decoration: none">
+                    Major: <span style="font-size:16px">{{post.major}}</span>
+                </p>
+              {% endfor %}
+            </section>
+          </div>
+        </article>
+
+    </div>
+    {% endif %}
+
     {% if site.tags.education %}
     <h2 class="index-headline featured"><span style="font-size:20px">Education</span></h2>
 
