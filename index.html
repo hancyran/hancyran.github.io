@@ -86,13 +86,13 @@ layout: default
     {% endif %}
 
     {% if site.tags.awards %}
-    <h2 class="index-headline featured"><span style="font-size:20px">Education</span></h2>
+    <h2 class="index-headline featured"><span style="font-size:20px">Awards</span></h2>
 
     <div class="container featured">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <section class="post-excerpt" itemprop="description">
-              {% for post in site.tags.education %}
+              {% for post in site.tags.awards %}
                 <p style="font-size:20px; font-weight:normal; text-decoration: none">
                     <span style="font-size:20px; font-weight:bold">{{post.name}}</span> &nbsp;&nbsp; <span style="font-size:14px">{{post.aff}}</span>
                 </p>
