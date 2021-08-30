@@ -28,5 +28,4 @@ We also compare our local aggregator with PointNet++, with around **30%** parame
 Finally, we conduct experiments to reveal the robustness of RPNet with regard to rigid transformation and noises.
 
 ## Results
-![classification](/assets/posts/rpnet_cls_result.png)
-![segmentation](/assets/posts/rpnet_seg_result.png)
+TBD
