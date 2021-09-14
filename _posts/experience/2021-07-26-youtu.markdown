@@ -9,5 +9,5 @@ time: Nov. 2020 - Present
 advisor: Wei Zhuo
 advisor2: Jun Liu
 advisor_url: https://scholar.google.com.au/citations?user=Q-UjnzEAAAAJ&hl=en
-topic: Point-based 3D Detection
+topic: Graphics-related Point Representation
 ---

@@ -9,5 +9,5 @@ time: July 2019 - Nov. 2019
 advisor: Shuaicheng Liu
 advisor2: Guangfu Wang
 advisor_url: http://www.liushuaicheng.org/
-topic: 3D Human Reconstruction & Human Imitation
+topic: Application of 3D Human Reconstruction & Human Imitation
 ---
