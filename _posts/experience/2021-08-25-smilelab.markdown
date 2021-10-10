@@ -1,0 +1,12 @@
+---
+layout: post
+categories: jekyll update
+tags: experience
+aff: SmileLab at Northeastern University
+aff_url: https://web.northeastern.edu/smilelab/homepage_people.html
+position: Research Assistant
+time: Oct. 2021 - Present
+advisor: Yun Raymond Fu
+advisor_url: http://www1.ece.neu.edu/~yunfu/
+topic: 3D Detection
+---
