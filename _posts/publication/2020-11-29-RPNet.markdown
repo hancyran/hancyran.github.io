@@ -7,6 +7,7 @@ tags: publication
 image: /assets/posts/rpnet.jpg
 publish:  "ICCV2021"
 ratio: "25.9%"
+pdf: "https://openaccess.thecvf.com/content/ICCV2021/papers/Ran_Learning_Inner-Group_Relations_on_Point_Clouds_ICCV_2021_paper.pdf"
 arxiv: "https://arxiv.org/abs/2108.12468"
 code:  "https://github.com/hancyran/RPNet"
 author:  <b>Haoxi Ran</b>, Wei Zhuo, Jun Liu, Li Lu
