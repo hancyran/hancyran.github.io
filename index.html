@@ -37,7 +37,7 @@ layout: default
             <header class="post-header">
               <h3 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h3>
                 <p style="text-decoration: none; font-size:20px; font-weight:bold">
-                    <span style="font-size:21px; color:Tomato">{{ post.publish }}</span>{% if post.ratio %}&nbsp&nbsp<span style="font-size:15px; font-weight:bold">(acceptance: {{post.ratio}})</span>{% endif %}
+                    <span style="font-size:21px; color:Tomato">{{ post.publish }}</span>{% if post.ratio %}<span style="font-size:15px; font-weight:bold"> (acceptance: {{post.ratio}})</span>{% endif %}
                     <a href="{% if post.pdf %}{{post.pdf}}{% endif %}" itemprop="url" style="text-decoration: none; font-size:18px; font-weight:bold; color:#3366cc">[PDF]</a>
                     <a href="{% if post.arxiv %}{{post.arxiv}}{% endif %}" itemprop="url" style="text-decoration: none; font-size:18px; font-weight:bold; color:#3366cc">[ArXiv]</a>
                     <a href="{% if post.code %}{{post.code}}{% endif %}" itemprop="url" style="text-decoration: none; font-size:18px; font-weight:bold; color:#3366cc">[Code]</a>
