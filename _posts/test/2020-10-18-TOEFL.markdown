@@ -3,6 +3,6 @@ layout: post
 categories: jekyll update
 tags: test
 name: TOEFL
-total: 111 / 120
-comment: Reading: 30, Listening: 30, Speaking: 22, Writing: 29
+total: "111 / 120"
+comment: "Reading: 30, Listening: 30, Speaking: 22, Writing: 29"
 ---
