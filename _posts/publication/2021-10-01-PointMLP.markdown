@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework"
-date:   2021-7-25
+date:   2022-1-28
 categories: jekyll update
 tags: publication
 image: /assets/posts/pointmlp.png
