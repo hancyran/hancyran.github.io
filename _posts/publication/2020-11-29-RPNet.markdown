@@ -12,7 +12,6 @@ arxiv: "https://arxiv.org/abs/2108.12468"
 code:  "https://github.com/hancyran/RPNet"
 author:  <b>Haoxi Ran</b>, Wei Zhuo, Jun Liu, Li Lu
 comment:  We propose a scalable and efficient module, called group relation aggregator. We adopt this module to design our RPNet. RPNet achieves state-of-the-art for classification and segmentation on challenging benchmarks. We also compare our local aggregator with PointNet++, with around 30% parameters and 50% computation saving.
-result: /assets/posts/rpnet_result.png
 ---
 
 ## Authors
@@ -29,6 +28,3 @@ Surprisingly, empirical results show that wider RPNet fits for classification, w
 RPNet achieves state-of-the-art for classification and segmentation on challenging benchmarks. 
 We also compare our local aggregator with PointNet++, with around **30%** parameters and **50%** computation saving. 
 Finally, we conduct experiments to reveal the robustness of RPNet with regard to rigid transformation and noises.
-
-## Results
-TBD

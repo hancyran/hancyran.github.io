@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework"
+date:   2021-7-25
+categories: jekyll update
+tags: publication
+image: /assets/posts/pointmlp.png
+publish:  "ICLR2022"
+pdf: "https://openreview.net/pdf?id=3Pbra-_u76D"
+openreview: "https://openreview.net/forum?id=3Pbra-_u76D"
+code:  "https://github.com/13952522076/pointMLP-pytorch"
+author:  Xu Ma, Can Qin, Haoxuan You, <b>Haoxi Ran</b>, Yun Fu
+comment:  In this paper, we present a novel perspective on the task of point cloud analysis by introducing a pure-MLP, simple yet effective residual network, called PointMLP.
+---
+
+## Authors
+Xu Ma, Can Qin, Haoxuan You, **Haoxi Ran**, Yun Fu
+
+## Abstraction
+Point cloud analysis is challenging due to irregularity and unordered data structure. 
+To capture the 3D geometries, prior works mainly rely on exploring sophisticated local 
+geometric extractors, using convolution, graph, or attention mechanisms. These methods, 
+however, incur unfavorable latency during inference and the performance saturates over 
+the past few years. In this paper, we present a novel perspective on this task. We find 
+detailed local geometrical information probably is not the key to point cloud analysis – 
+we introduce a pure residual MLP network, called PointMLP, which integrates no local 
+geometrical extractors but still performs very competitively. Equipped with a proposed 
+lightweight geometric-affine module to stabilize the training, PointMLP delivers the 
+new state-of-the-art on multiple datasets. On the real-world ScanObjectNN dataset, our 
+method even surpasses the prior best method by 3.3% accuracy. We emphasize PointMLP 
+achieves this strong performance without any sophisticated operations, hence leading 
+to a prominent inference speed. Compared to most recent CurveNet, PointMLP trains 2× 
+faster, tests 7× faster, and is more accurate on ModelNet40 benchmark. We hope our 
+PointMLP may help the community towards a better understanding of point cloud analysis.
