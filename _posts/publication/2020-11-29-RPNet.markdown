@@ -11,7 +11,7 @@ pdf: "https://openaccess.thecvf.com/content/ICCV2021/papers/Ran_Learning_Inner-G
 arxiv: "https://arxiv.org/abs/2108.12468"
 code:  "https://github.com/hancyran/RPNet"
 author:  <b>Haoxi Ran</b>, Wei Zhuo, Jun Liu, Li Lu
-comment:  We propose a scalable and efficient module, called group relation aggregator. We adopt this module to design our RPNet. RPNet achieves state-of-the-art for classification and segmentation on challenging benchmarks. We also compare our local aggregator with PointNet++, with around 30% parameters and 50% computation saving.
+comment:  We propose a scalable and efficient relation-based module, called group relation aggregator, to compute a feature of a group based on the aggregation of the features of the inner-group points weighted by geometric relations and semantic relations.
 ---
 
 ## Authors
