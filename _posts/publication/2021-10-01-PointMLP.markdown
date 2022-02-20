@@ -7,6 +7,7 @@ tags: publication
 image: /assets/posts/pointmlp.png
 publish:  "ICLR2022"
 pdf: "https://openreview.net/pdf?id=3Pbra-_u76D"
+arxiv: "https://arxiv.org/abs/2202.07123"
 openreview: "https://openreview.net/forum?id=3Pbra-_u76D"
 code:  "https://github.com/13952522076/pointMLP-pytorch"
 author:  Xu Ma, Can Qin, Haoxuan You, <b>Haoxi Ran</b>, Yun Fu
