@@ -5,7 +5,7 @@ date:   2022-1-28
 categories: jekyll update
 tags: publication
 image: /assets/posts/pointmlp.png
-publish:  "ICLR2022"
+publish:  "ICLR 2022"
 pdf: "https://openreview.net/pdf?id=3Pbra-_u76D"
 arxiv: "https://arxiv.org/abs/2202.07123"
 openreview: "https://openreview.net/forum?id=3Pbra-_u76D"
