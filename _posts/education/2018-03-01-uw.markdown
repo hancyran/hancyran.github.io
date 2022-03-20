@@ -2,9 +2,9 @@
 layout: post
 categories: jekyll update
 tags: education
-aff: University of Washington
-location: Seattle, USA
-degree: Exchange Student 
-major: Computer Science & Engineering
-time: March 2018 - June 2018
+aff: Carnegie Mellon University
+location: Pittsburgh, USA
+degree: Master of Science
+major: Robotics at School of Computer Science
+time: Aug. 2022 - June 2024
 ---
