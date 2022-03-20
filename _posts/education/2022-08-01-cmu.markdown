@@ -6,5 +6,5 @@ aff: Carnegie Mellon University
 location: Pittsburgh, USA
 degree: Master of Science
 major: Robotics
-time: Aug. 2022 (very soon)
+time: Aug. 2022 - June 2024  
 ---
