@@ -5,6 +5,6 @@ tags: education
 aff: Carnegie Mellon University
 location: Pittsburgh, USA
 degree: Master of Science
-major: Robotics
-time: Aug. 2022 - June 2024  
+major: Robotics at School of Computer Science
+time: Aug. 2022 - June 2024
 ---
