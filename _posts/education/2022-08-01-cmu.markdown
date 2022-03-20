@@ -1,0 +1,10 @@
+---
+layout: post
+categories: jekyll update
+tags: education
+aff: Carnegie Mellon University
+location: Pittsburgh, USA
+degree: Master of Science
+major: Robotics
+time: Aug. 2022 (very soon)
+---
