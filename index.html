@@ -37,7 +37,7 @@ layout: default
             <header class="post-header">
               <h4 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h4>
                 <p style="text-decoration: none; font-size:20px; font-weight:bold">
-                    <span style="font-size:21px">{{ post.publish }}</span>
+                    <span style="font-size:21px; color: #404040">{{ post.publish }}</span>
                     {% if post.label %}<span style="font-size:21px; font-weight:bold; color:Tomato"> {{post.label}}</span>{% endif %}
                     {% if post.ratio %}<span style="font-size:16px; font-weight:bold"> ({{post.ratio}})</span>{% endif %}
                     {% if post.pdf %}<a href="{{post.pdf}}" itemprop="url" style="text-decoration: none; font-size:16px; font-weight:bold; color:#3366cc">[PDF]</a>{% endif %}
