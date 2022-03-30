@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Surface Representation for Point Clouds"
-date:   2022-3-1
+date:   2022-3-28
 categories: jekyll update
 tags: publication
 publish:  "ICCV 2021"
-label: ORAL&#10071;
+label: ORAL&#10071;&#10071;&#10071;
 ratio: "25.3%"
 author:  <b>Haoxi Ran</b>, Jun Liu, Chengjie Wang
 comment: A novel representation of point clouds to explicitly depict the very local structure, including Triangular RepSurf and Umbrella RepSurf inspired by triangle meshes and umbrella curvature in computer graphics.
