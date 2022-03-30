@@ -4,7 +4,7 @@ title:  "Surface Representation for Point Clouds"
 date:   2022-3-28
 categories: jekyll update
 tags: publication
-publish:  "ICCV 2021"
+publish:  "CVPR 2022"
 label: oral presentation
 ratio: "4%"
 author:  <b>Haoxi Ran</b>, Jun Liu, Chengjie Wang
