@@ -10,7 +10,7 @@ ratio: "32.9%"
 pdf: "https://openreview.net/pdf?id=3Pbra-_u76D"
 arxiv: "https://arxiv.org/abs/2202.07123"
 openreview: "https://openreview.net/forum?id=3Pbra-_u76D"
-code:  "https://github.com/13952522076/pointMLP-pytorch"
+code:  "https://github.com/ma-xu/pointMLP-pytorch"
 author:  Xu Ma, Can Qin, Haoxuan You, <b>Haoxi Ran</b>, Yun Fu
 comment: A novel perspective on the task of point cloud analysis by introducing a pure-MLP, simple yet effective residual network, called PointMLP.
 ---
