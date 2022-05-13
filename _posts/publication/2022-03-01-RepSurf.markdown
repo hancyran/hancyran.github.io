@@ -7,6 +7,8 @@ tags: publication
 publish:  "CVPR 2022"
 ratio: "5.0%"
 label: Oral Presentation
+pdf: "http://arxiv.org/pdf/2205.05740"
+arxiv: "http://arxiv.org/abs/2205.05740"
 code:  "https://github.com/hancyran/RepSurf"
 author:  <b>Haoxi Ran</b>, Jun Liu, Chengjie Wang
 comment: A novel representation of point clouds to explicitly depict the very local structure, including Triangular RepSurf and Umbrella RepSurf inspired by triangle meshes and umbrella curvature in computer graphics.
