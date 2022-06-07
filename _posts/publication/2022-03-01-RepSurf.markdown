@@ -7,7 +7,8 @@ tags: publication
 publish:  "CVPR 2022"
 ratio: "5.0%"
 label: Oral Presentation
-pdf: "http://arxiv.org/pdf/2205.05740"
+pdf: "https://openaccess.thecvf.com/content/CVPR2022/papers/Ran_Surface_Representation_for_Point_Clouds_CVPR_2022_paper.pdf"
+supp: "https://openaccess.thecvf.com/content/CVPR2022/supplemental/Ran_Surface_Representation_for_CVPR_2022_supplemental.pdf"
 arxiv: "http://arxiv.org/abs/2205.05740"
 code:  "https://github.com/hancyran/RepSurf"
 author:  <b>Haoxi Ran</b>, Jun Liu, Chengjie Wang
