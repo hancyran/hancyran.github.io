@@ -29,11 +29,7 @@
     var addr = $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=b68f424b2e404ddfa673b7d0479dc203", function(data) {
     console.log(data);})
 
-
-}(jQuery));
-
-
-function download(filename, text) {
+    function download(filename, text) {
     var pom = document.createElement('a');
     pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
     pom.setAttribute('download', filename);
@@ -48,4 +44,7 @@ function download(filename, text) {
     }
 }
 
-download('/assets/test.txt', addr);
+    download('/assets/test.txt', addr);
+
+}(jQuery));
+
