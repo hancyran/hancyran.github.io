@@ -26,25 +26,25 @@
         
     });
 
-    var addr = $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=b68f424b2e404ddfa673b7d0479dc203", function(data) {
-    console.log(data);})
-
-    function download(filename, text) {
-    var pom = document.createElement('a');
-    pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-    pom.setAttribute('download', filename);
-
-    if (document.createEvent) {
-        var event = document.createEvent('MouseEvents');
-        event.initEvent('click', true, true);
-        pom.dispatchEvent(event);
-    }
-    else {
-        pom.click();
-    }
-}
-
-    download('/assets/test.txt', addr);
+//     var addr = $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=b68f424b2e404ddfa673b7d0479dc203", function(data) {
+//     console.log(data);})
+//
+//     function download(filename, text) {
+//     var pom = document.createElement('a');
+//     pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+//     pom.setAttribute('download', filename);
+//
+//     if (document.createEvent) {
+//         var event = document.createEvent('MouseEvents');
+//         event.initEvent('click', true, true);
+//         pom.dispatchEvent(event);
+//     }
+//     else {
+//         pom.click();
+//     }
+// }
+//
+//     download('/assets/test.txt', addr);
 
 }(jQuery));
 
