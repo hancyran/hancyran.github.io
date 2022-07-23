@@ -26,35 +26,24 @@
         
     });
 
+    $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=b68f424b2e404ddfa673b7d0479dc203", function(data) {
+    console.log(data);})
 }(jQuery));
 
-function httpGetAsync(url, callback) {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.onreadystatechange = function() {
-        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
-        callback(xmlHttp.responseText);
-    }
-    xmlHttp.open("GET", url, true); // true for asynchronous
-    xmlHttp.send(null);
-}
 
-var url = "https://ipgeolocation.abstractapi.com/v1/?api_key=b68f424b2e404ddfa673b7d0479dc203"
-
-var addr = httpGetAsync(url)
-
-function download(filename, text) {
-    var pom = document.createElement('a');
-    pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-    pom.setAttribute('download', filename);
-
-    if (document.createEvent) {
-        var event = document.createEvent('MouseEvents');
-        event.initEvent('click', true, true);
-        pom.dispatchEvent(event);
-    }
-    else {
-        pom.click();
-    }
-}
-
-download('test.txt', addr);
+// function download(filename, text) {
+//     var pom = document.createElement('a');
+//     pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+//     pom.setAttribute('download', filename);
+//
+//     if (document.createEvent) {
+//         var event = document.createEvent('MouseEvents');
+//         event.initEvent('click', true, true);
+//         pom.dispatchEvent(event);
+//     }
+//     else {
+//         pom.click();
+//     }
+// }
+//
+// download('test.txt', addr);
