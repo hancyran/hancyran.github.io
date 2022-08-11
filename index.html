@@ -117,27 +117,20 @@ layout: default
     </div>
     {% endif %}
 
-    {% if site.tags.test %}
-    <h2 class="index-headline featured"><span style="font-size:20px">Test</span></h2>
+    <h2 class="index-headline featured"><span style="font-size:20px">Services</span></h2>
 
     <div class="container featured">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <section class="post-excerpt" itemprop="description">
-              {% for post in site.tags.test %}
-                <p style="font-size:20px; font-weight:normal; text-decoration: none">
-                    <span style="font-size:24px; font-weight:bold; font-family: serif">{{post.name}}</span>
-                </p>
-                <p style="font-size:16px; font-weight:normal; text-decoration: none">
-                    <span style="font-size:16px; font-weight:bold">{{post.total}}</span> <span style="font-size:16px">| {{post.comment}}</span>
-                </p>
-              {% endfor %}
+                <p style="font-size:20px; font-weight:normal; text-decoration: none"><span style="font-size:20px; font-weight:bold; font-family: serif">Conference Reviewer: </span><span style="font-size:20px; font-weight:normal">CVPR, ECCV, 3DV</span></p>
+                <p style="font-size:20px; font-weight:normal; text-decoration: none"><span style="font-size:20px; font-weight:bold; font-family: serif">Journal Reviewer: </span><span style="font-size:20px; font-weight:normal">Pattern Recognition</span></p>
+                <p style="font-size:20px; font-weight:normal; text-decoration: none"><span style="font-size:20px; font-weight:normal; font-family: serif">Invited Talk at University of Liverpool</span></p>
             </section>
           </div>
         </article>
 
     </div>
-    {% endif %}
 
     {% if site.tags.awards %}
     <h2 class="index-headline featured"><span style="font-size:20px">Awards</span></h2>
@@ -163,6 +156,29 @@ layout: default
 
     </div>
     {% endif %}
+
+    {% if site.tags.test %}
+    <h2 class="index-headline featured"><span style="font-size:20px">Test</span></h2>
+
+    <div class="container featured">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <section class="post-excerpt" itemprop="description">
+              {% for post in site.tags.test %}
+                <p style="font-size:20px; font-weight:normal; text-decoration: none">
+                    <span style="font-size:24px; font-weight:bold; font-family: serif">{{post.name}}</span>
+                </p>
+                <p style="font-size:16px; font-weight:normal; text-decoration: none">
+                    <span style="font-size:16px; font-weight:bold">{{post.total}}</span> <span style="font-size:16px">| {{post.comment}}</span>
+                </p>
+              {% endfor %}
+            </section>
+          </div>
+        </article>
+
+    </div>
+    {% endif %}
+
 
     <nav class="pagination" role="navigation">
       {% if paginator.next_page %}
