@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training"
+date:   2023-3-28
+categories: jekyll update
+tags: publication
+publish:  "CVPR 2023"
+ratio: "25.8%"
+pdf: "https://openaccess.thecvf.com/content/CVPR2023/papers/Tian_GeoMAE_Masked_Geometric_Target_Prediction_for_Self-Supervised_Point_Cloud_Pre-Training_CVPR_2023_paper.pdf"
+supp: "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Tian_GeoMAE_Masked_Geometric_CVPR_2023_supplemental.pdf"
+arxiv: "https://arxiv.org/abs/2305.08808"
+code:  "https://github.com/Tsinghua-MARS-Lab/GeoMAE"
+author:  Xiaoyu Tian, <b>Haoxi Ran</b>, Yue Wang, Hang Zhao
+comment: A novel self-supervised learning framework on LiDAR point clouds, based on geometric feature reconstruction
+---
+
+## Authors
+Xiaoyu Tian, **Haoxi Ran**, Yue Wang, Hang Zhao
+
+## Abstraction
+This paper tries to address a fundamental question in point cloud self-supervised learning: what is a good signal we should leverage to learn features from point clouds without annotations? 
+To answer that, we introduce a point cloud representation learning framework, based on geometric feature reconstruction. 
+In contrast to recent papers that directly adopt masked autoencoder (MAE) and only predict original coordinates or occupancy from masked point clouds, our method revisits differences between images and point clouds and identifies three self-supervised learning objectives peculiar to point clouds, namely centroid prediction, normal estimation, and curvature prediction. 
+Combined, these three objectives yield an nontrivial self-supervised learning task and mutually facilitate models to better reason fine-grained geometry of point clouds. 
+Our pipeline is conceptually simple and it consists of two major steps: 
+first, it randomly masks out groups of points, followed by a Transformer-based point cloud encoder; 
+second, a lightweight Transformer decoder predicts centroid, normal, and curvature for points in each voxel. 
+We transfer the pre-trained Transformer encoder to a downstream peception model. 
+On the nuScene Datset, our model achieves 3.38 mAP improvment for object detection, 2.1 mIoU gain for segmentation, and 1.7 AMOTA gain for multi-object tracking. 
+We also conduct experiments on the Waymo Open Dataset and achieve significant performance improvements over baselines as well.
