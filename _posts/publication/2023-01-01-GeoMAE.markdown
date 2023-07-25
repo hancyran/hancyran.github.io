@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training"
-date:   2023-3-28
+date:   2023-2-28
 categories: jekyll update
 tags: publication
 publish:  "CVPR 2023"
