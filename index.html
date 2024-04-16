@@ -50,6 +50,7 @@ layout: default
                     <span style="font-size:21px; color: #404040; font-family: serif; font-style: italic">{{ post.publish }}</span>
                     {% if post.label %}<span style="font-size:21px; font-weight:bold; color:Tomato; font-family: serif; font-style: italic"> {{post.label}}</span>{% endif %}
                     {% if post.ratio %}<span style="font-size:16px; font-weight:bold; color: #404040; font-family: serif; font-style: normal"> ({{post.ratio}})</span>{% endif %}
+                    {% if post.website %}<a href="{{post.website}}" itemprop="url" style="text-decoration: none; font-size:16px; font-weight:bold; color:#3366cc; font-family: serif;">[Website]</a>{% endif %}
                     {% if post.pdf %}<a href="{{post.pdf}}" itemprop="url" style="text-decoration: none; font-size:16px; font-weight:bold; color:#3366cc; font-family: serif;">[PDF]</a>{% endif %}
                     {% if post.supp %}<a href="{{post.supp}}" itemprop="url" style="text-decoration: none; font-size:16px; font-weight:bold; color:#3366cc; font-family: serif;">[Supp]</a>{% endif %}
                     {% if post.arxiv %}<a href="{{post.arxiv}}" itemprop="url" style="text-decoration: none; font-size:16px; font-weight:bold; color:#3366cc; font-family: serif;">[ArXiv]</a>{% endif %}
