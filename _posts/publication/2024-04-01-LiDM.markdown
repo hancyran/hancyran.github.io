@@ -9,6 +9,7 @@ ratio: "25.7%"
 arxiv: "https://arxiv.org/abs/2404.00815"
 code:  "https://github.com/hancyran/LiDAR-Diffusion"
 author:  <b>Haoxi Ran</b>, Vitor Guizilini, Yue Wang
+website: "https://lidar-diffusion.github.io"
 comment: Controllable LiDAR Generation with Diffusion Models
 ---
 
