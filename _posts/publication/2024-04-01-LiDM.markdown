@@ -11,6 +11,7 @@ pdf: "https://arxiv.org/pdf/2404.00815.pdf"
 code:  "https://github.com/hancyran/LiDAR-Diffusion"
 author:  <b>Haoxi Ran</b>, Vitor Guizilini, Yue Wang
 website: "https://lidar-diffusion.github.io"
+video: "https://www.youtube.com/watch?v=Vj7DubNZnDo"
 comment: Controllable LiDAR Generation with Diffusion Models
 ---
 
