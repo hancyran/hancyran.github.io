@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "email:"
     M.S. Robotics @ Carnegie Mellon University
 
 
-email: ranhaoxi AT gmail DOT com
+email: ranhaoxi@gmail.com
 #blog logo
 logo: "/assets/images/portrait.png"
 float_logo: false # true, false (default)
