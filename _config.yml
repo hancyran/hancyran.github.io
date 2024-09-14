@@ -11,15 +11,15 @@ description: > # this means to ignore newlines until "email:"
 
 email: ranhaoxi@gmail.com
 #blog logo
-logo: "/assets/images/portrait.png"
+logo: "/assets/images/portrait.jpg"
 float_logo: false # true, false (default)
 
 # blog cover
-cover: "/assets/images/cover.png"
+cover: "/assets/images/cover.jpg"
 
 name: 'Haoxi Ran'
 author: 'Haoxi Ran'
-author_image: "/assets/images/portrait.png"
+author_image: "/assets/images/portrait.jpg"
 
 paginate:	10
 
